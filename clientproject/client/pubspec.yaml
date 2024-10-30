@@ -1,0 +1,235 @@
+name: payapp
+
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 3.0.0+3
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #Local Hive Database
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.11
+
+  #google SignIn
+  google_sign_in: ^5.4.1
+
+  #google maps
+  google_maps_flutter: ^2.2.5
+  flutter_form_builder: ^8.0.0
+
+  conditional_builder_null_safety: ^0.0.6
+  #liquid swipe onBoardingScreen
+  smooth_page_indicator: ^1.0.0+2
+
+  #Google Fonts
+  google_fonts: ^6.1.0
+
+  #state Management
+  provider: ^6.0.3
+
+  #flutter svg
+  flutter_svg: ^1.1.6
+
+  #icons
+  iconsax: ^0.0.8
+
+  #scroll_app_bar: ^2.0.0
+
+  #share& openUrl
+  url_launcher: ^6.1.5
+  # share: ^2.0.4
+
+  #  localDatabase
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.3.0
+
+  # otp autofill
+  sms_autofill: ^2.3.0
+  pin_input_text_field: ^4.0.0
+
+  #videoplayer
+  # better_player: ^0.0.83
+  jitsi_meet_wrapper: ^0.0.6
+  video_player: ^2.6.1
+  chewie: ^1.5.0
+  youtube_player_flutter: ^8.1.2
+  #Dotted Border
+
+  #imagePicker
+  image_picker: ^0.8.5+3
+
+  #permissionHandler
+  permission_handler: ^10.0.0
+  clipboard: ^0.1.3
+  spincircle_bottom_bar: ^2.0.0
+
+  intl: ^0.17.0
+  razorpay_flutter: ^1.3.0
+
+  # lottie animation
+  lottie: ^2.6.0
+  # connectivity
+  # connectivity: ^3.0.6
+
+  #  open_file: ^3.2.1
+  visibility_detector: ^0.3.3
+  flutter_riverpod: ^0.13.1+1
+  miniplayer: ^1.0.0+2
+  timeago: ^3.0.2
+  http: ^1.1.0
+  sizer: ^2.0.15
+  socket_io_client: ^2.0.3+1
+  readmore: ^3.0.0
+  searchfield: ^1.1.0
+  phonepe_payment_sdk:
+
+  crypto:
+
+  #  firebase_messaging: ^14.3.0
+  #  firebase_core: ^2.8.0
+  flutter_local_notifications: ^17.2.2
+  app_settings: ^4.2.0
+  flutter_local_notifications_linux: ^4.0.1
+  file_picker: ^8.0.3
+  get:
+  cupertino_icons: ^1.0.2
+  jiffy: ^5.0.0
+
+  timer_stop_watch: ^1.0.0
+  dropdown_button2: ^2.1.4
+  syncfusion_flutter_sliders: ^21.2.4
+  animated_text_kit: ^4.2.2
+  rating_dialog: ^2.0.4
+  ## from the E-commerce app:
+  firebase_core: ^2.4.1
+  firebase_messaging: ^14.2.1
+  #  flutter_local_notifications: ^13.0.0
+  #  path_provider: ^2.0.8
+  url_strategy: ^0.2.0
+  pin_code_fields: ^8.0.1
+  geolocator: ^9.0.2
+  #  google_maps_flutter: ^2.1.5
+  google_maps_flutter_web: ^0.4.0+5
+  flutter_typeahead: ^4.3.7
+  carousel_slider: ^5.0.0
+  shimmer_animation: ^2.1.0+1
+  #  image_picker: ^0.8.5+3
+  image_picker_ios: ^0.8.5+6
+  universal_html: ^2.0.8
+  flutter_inappwebview: ^5.7.1
+  flutter_widget_from_html: 0.9.1
+  flutter_html: ^3.0.0-alpha.5
+  #  url_launcher: ^6.1.2
+  #  http: ^0.13.4
+  pointer_interceptor: ^0.9.0+1
+  # phone_number: ^1.0.0
+  country_code_picker: ^3.0.0
+  #  cached_network_image: ^3.2.1
+  photo_view: ^0.14.0
+  image_compression_flutter: ^1.0.2
+  dotted_border: ^2.1.0
+  share_plus: 
+  # expandable_bottom_sheet: ^1.1.1+1
+  #  google_sign_in: ^5.4.2
+  google_sign_in_web: ^0.10.2
+  flutter_facebook_auth: ^6.0.1
+  flutter_animarker: ^3.2.0
+  sign_in_with_apple: ^4.3.0
+  just_the_tooltip: ^0.0.12
+  flutter_slidable: ^3.0.0
+  meta_seo: ^3.0.5
+  animated_flip_counter: ^0.2.5
+  speech_to_text: ^6.3.0
+  flutter_box_transform: ^0.4.2
+  zefyrka:
+  awesome_rich_editor: ^0.0.1
+  dots_indicator: ^3.0.0
+  location: ^5.0.3
+  flutter_staggered_grid_view: ^0.7.0
+  youtube_player_iframe: ^4.0.4
+  time_range_picker: ^2.2.0
+  fluttertoast: ^8.2.4
+  dio: ^5.4.1
+  image_cropper: ^5.0.1
+  flutter_image_compress: ^2.1.0
+  video_editor: ^3.0.0
+  flutter_downloader: ^1.11.6
+  glass: ^2.0.0+1
+  glassmorphism: ^3.0.0
+  #  pdf_thumbnail: ^0.1.5+1
+  youtube_parser: ^2.1.3
+  cookie_jar: ^4.0.8
+  rive: ^0.13.1
+  easy_stepper: ^0.8.3
+  flutter_animate: ^4.5.0
+  auto_animated: ^3.1.0
+  flutter_staggered_animations: ^1.1.1
+  dotted_line: ^3.2.2
+  font_awesome_flutter: ^10.7.0
+  draggable_widget: ^2.0.0
+  flutter_colorpicker: ^1.0.3
+  pro_image_editor: ^2.6.8
+  device_info_plus: ^9.1.2
+  # phone_number: ^2.1.0
+  phone_numbers_parser: ^8.3.0
+
+dependency_overrides:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  modal_bottom_sheet: ^3.0.0-pre
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/image/
+    - assets/language/
+    - assets/education/
+    - assets/onboarding/
+    - assets/images/
+    - assets/images/educationscreen/
+    - assets/images/kycscreen/
+    - assets/images/homescreen/
+    - assets/images/homescreen/servicesicons/
+    - assets/images/gmoappscreen/
+    - assets/icons/
+    - assets/data/
+    - assets/payments/
+    - assets/lottie/
+    - assets/language/
+    - assets/font/
+    - assets/pod_service/
+    - assets/RiveAssets/
+    - assets/Backgrounds/
+    - assets/WhatsApp Image 2024-03-19 at 21.56.13_a1be68bb.jpg
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/font/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/font/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/font/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/font/Roboto-Black.ttf
+          weight: 900
+
+    - family: IconBroken
+      fonts:
+        - asset: assets/icons/icons.ttf
